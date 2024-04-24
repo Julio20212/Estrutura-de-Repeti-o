@@ -16,7 +16,7 @@ public class Ativrepeticao2 {
         
         System.out.println("Números ímpares no intervalo " + inicio + fim);
         for (int i = inicio; i <= fim; i++) {
-            if (i % 2 != 0) {
+            if (i% 2 != 0) {
                 System.out.println(i);
             }
         }
